@@ -13,17 +13,15 @@ Here are all the videos where we have created this React app [Youtube Playlist](
 1. **Backend REST API Node server**
 
    As this React app is consuming a REST API, make sure the same is up and running on your system
-   - the complete code is available [here](https://github.com/pairlearning/personal-notes-mgr-api) at GitHub
-   - go through any one of the below videos to make the API up and running:<br/>
-   https://www.youtube.com/watch?v=YwjR7k28QV0 <br/>
-   https://www.youtube.com/watch?v=hrT1kQSRB8U
+   - the complete code is available [here](https://github.com/KhajaMoulali/login-signup.git) at GitHub
+  
 2. **Clone the React app repo from GitHub**
    ```sh
-   git clone https://github.com/pairlearning/react-personal-notes-mgr.git
+   git clone https://github.com/KhajaMoulali/login-signup.git
    ```
 3. **Install npm dependencies**
    ```sh
-   cd react-personal-notes-mgr
+   cd client
    npm install
    ```
 4. **Run npm start to start the application**

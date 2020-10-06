@@ -1,12 +1,5 @@
 # login-signup-system
 
-REST API for managing personal notes.
-
-A complete RESTful API created using Node.js and Express. We have used MongoDB as the database and mongoose as the ORM library which makes it easier to interact with MongoDB.
-Apart from this, we have used JSON Web Token (JWT) to add authentication. Using JWT, we can protect certain endpoints and ensure that user must be logged-in to access those.
-
-Here are all the videos where we have created this API from scratch - [Youtube Playlist](https://www.youtube.com/playlist?list=PLWieu6NbbqTxb-mKf4J0_Pl3vmGWmOfmY)
-
 ## Setup and Installation
 
 1. **Clone the repo from GitHub**

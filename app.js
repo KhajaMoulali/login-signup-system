@@ -27,7 +27,7 @@ app.use((err, req, res, next) => {
 mongoose.connect(MONGODB, { useNewUrlParser: true })
     .then(() => {
         console.log('connected to mongodb');
-        return app.listen(3300);
+        return app.listen(4000);
     })
     .then(() => console.log('server running at 3300'))
     .catch(err => console.log(err.message));

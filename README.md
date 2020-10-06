@@ -1,4 +1,4 @@
-# personal-notes-mgr-api
+# login-signup-system
 
 REST API for managing personal notes.
 

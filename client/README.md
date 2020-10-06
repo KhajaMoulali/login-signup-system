@@ -1,12 +1,4 @@
-# react-personal-notes-mgr
-
-React Redux application for managing personal notes.
-
-A complete Single-Page-Application (SPA) created using React JavaScript library. We have used Redux for state management and Bootstrap for styling the UI. We are interacting with a RESTful API which is protected using JWT.
-
-Another thing to note is, we have not used any 3rd party library such as thunk/saga for performing async operations. Instead we have created own custom API redux middleware. For any medium to large application, leveraging redux middleware helps in centralizing common tasks (or cross cutting concerns) such as API calls, exception handling and logging.
-
-Here are all the videos where we have created this React app [Youtube Playlist](https://www.youtube.com/playlist?list=PLWieu6NbbqTyMaRRywunCGZZsi8gmw7dh)
+# Login - SignUp App.
 
 ## Setup and Installation
 

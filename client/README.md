@@ -5,11 +5,11 @@
 1. **Backend REST API Node server**
 
    As this React app is consuming a REST API, make sure the same is up and running on your system
-   - the complete code is available [here](https://github.com/KhajaMoulali/login-signup.git) at GitHub
+   - the complete code is available [here](https://github.com/KhajaMoulali/login-signup-task.git) at GitHub
   
 2. **Clone the React app repo from GitHub**
    ```sh
-   git clone https://github.com/KhajaMoulali/login-signup.git
+   git clone https://github.com/KhajaMoulali/login-signup-task.git
    ```
 3. **Install npm dependencies**
    ```sh

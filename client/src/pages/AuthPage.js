@@ -2,7 +2,7 @@
  * Authentication Page @ Sk Khaja Moulali
  */
 import React from 'react';
-import LoginForm from '../components/login.component';
+import LoginForm from '../components/Login';
 
 const AuthPage = () => (
     <div className="row justify-content-between">

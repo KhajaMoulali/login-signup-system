@@ -6,7 +6,7 @@ REST API for Login and SignUp.
 
 1. **Clone the repo from GitHub**
    ```sh
-   git clone https://github.com/KhajaMoulali/login-signup.git
+   git clone https://github.com/KhajaMoulali/login-signup-task.git
    ```
 2. **Install all npm dependencies**
    ```sh
@@ -31,7 +31,7 @@ REST API for Login and SignUp.
    ```sh
    npm start
    ```
-   this runs at port 4000 and hence all enpoints can be accessed starting from http://localhost:4000
+   this runs at port 3300 and hence all enpoints can be accessed starting from http://localhost:3300
 
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "personal-notes-mgr-api",
+  "name": "assignment-task-api",
   "version": "1.0.0",
   "description": "REST API for managing personal notes",
   "main": "app.js",
@@ -8,7 +8,7 @@
         "client": "npm start --prefix client",
         "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "PairLearning",
+  "author": "Sk Khaja",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

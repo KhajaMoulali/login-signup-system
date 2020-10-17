@@ -4,12 +4,13 @@ import { connect } from 'react-redux';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, Slide } from 'react-toastify';
 
-import AuthPage from './pages/authpage.component';
-import RegisterForm from './components/register.component';
-import UserInfo from './pages/userinfo.component';
-import Header from './components/header.component';
+import AuthPage from './pages/AuthPage';
+import RegisterForm from './components/Register';
+import Header from './components/Header';
 import Spinner from './components/spinner/spinner.component';
 import { logoutUser } from './redux/actions/authActionCreators';
+import AddOrEditNote from './pages/AddOrEditNote';
+import NotesPage from './pages/NotesPage';
 
 const App = ({ user, dispatchLogoutAction }) => {
   return (
@@ -17,7 +18,7 @@ const App = ({ user, dispatchLogoutAction }) => {
       <ToastContainer position="top-right" autoClose={2000}
         hideProgressBar transition={Slide} />
       <Spinner />
-      <Header isLoggedIn={user.isLoggedIn} userName={user}
+      <Header isLoggedIn={user.isLoggedIn} userName={user.fullName}
         onLogout={dispatchLogoutAction} />
       <div className="container my-5">
         {!user.isLoggedIn ?
@@ -27,8 +28,9 @@ const App = ({ user, dispatchLogoutAction }) => {
             <Redirect to="/auth" />
           </Switch>) :
           (<Switch>
-            
-            <Route exact path="/notes" component={UserInfo} />
+            <Route exact path="/notes" component={NotesPage} />
+            <Route exact path="/edit-note" component={AddOrEditNote} />
+            <Route exact path="/edit-note/:noteId" component={AddOrEditNote} />
             <Redirect to="/notes" />
           </Switch>)
         }

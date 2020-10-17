@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import { toast } from 'react-toastify';
 
 import { registerUser } from '../redux/actions/authActionCreators';
-import allCountries from '../../node_modules/country-json/src/country-by-name.json';
+import allCountries from 'country-json/src/country-by-name';
 
 const RegisterForm = ({ dispatchRegisterAction }) => {
 

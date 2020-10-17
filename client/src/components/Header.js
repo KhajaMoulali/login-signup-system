@@ -16,7 +16,7 @@ const Header = ({ userName, isLoggedIn, onLogout }) => (
             {isLoggedIn &&
                 <h4 className="ml-auto mr-4">
                     <span className="badge badge-pill badge-secondary text-capitalize">
-                        Welcome {userName.fullName} !
+                        Welcome {userName} !
                 </span>
                 </h4>}
             {isLoggedIn &&

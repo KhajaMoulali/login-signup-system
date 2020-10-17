@@ -6,7 +6,7 @@ REST API for Login and SignUp.
 
 1. **Clone the repo from GitHub**
    ```sh
-   git clone https://github.com/KhajaMoulali/login-signup-task.git
+   git clone https://github.com/KhajaMoulali/login-signup-system.git
    ```
 2. **Install all npm dependencies**
    ```sh
